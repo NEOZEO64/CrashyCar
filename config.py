@@ -21,7 +21,7 @@ FPS = 60
 screenCaption = "CrashyCar"
 
 path = "./Resource/"
-info = "Made by Carl R. Becker 2019"
+info = "Made by NEOZEO 2019"
 
 roadOverstand = 16
 

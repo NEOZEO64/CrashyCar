@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
 '''
 Name:   CrashyCar
 Date:   11.04.19
-
-Changes 31.5.22: Improved configuration
 '''
 
 from config import *
@@ -415,7 +412,7 @@ if stripes:
 
 if player:
     startLine = int(streetLineQuantity/2)   #first line-position of the car
-    yPosition = screenHeight-screenHeight*1/4 #the height of the car on teh screen
+    yPosition = screenHeight-screenHeight*1/4 #the height of the car on the screen
 
 if fpsLabelOn:
     fpsLabel = FPSlabel(fpsx,fpsy)
@@ -457,7 +454,7 @@ while work:
                 graspixellst.append(GrasPixel(x,y,color))
     if player:
         player1 = playerSprite(startLine,yPosition,player1Size) #initializing player1-object
-    print("Setup abgeschlossen") #debug information
+    print("Setup done") #debug information
     if run:
         print("runrunrun")
     while run: #game-loop
